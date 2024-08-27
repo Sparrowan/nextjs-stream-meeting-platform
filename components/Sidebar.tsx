@@ -27,7 +27,9 @@ const Sidebar = () => {
                 { "bg-blue-1": isActive }
               )}
             >
-              {link.label}
+              <p className="text-lg font-semibold max-lg:hidden">
+                {link.label}
+              </p>
             </Link>
           );
         })}
